@@ -1,0 +1,32 @@
+name = personalizame_beta
+description = Please provide a description for your theme.
+base theme = omega
+screenshot = screenshot.png
+engine = phptemplate
+core = 7.x
+
+; ========================================
+; Stylesheets
+; ========================================
+stylesheets[all][] = css/personalizame-beta.normalize.css
+stylesheets[all][] = css/personalizame-beta.hacks.css
+stylesheets[all][] = css/personalizame-beta.styles.css
+stylesheets[all][] = css/personalizame-beta.no-query.css
+
+; ========================================
+; Scripts
+; ========================================
+scripts[] = js/personalizame-beta.behaviors.js
+
+; ========================================
+; Regions
+; ========================================
+regions[branding] = Branding
+regions[header] = Header
+regions[navigation] = Navigation
+regions[highlighted] = Highlighted
+regions[help] = Help
+regions[content] = Content
+regions[sidebar_first] = First Sidebar
+regions[sidebar_second] = Second Sidebar
+regions[footer] = Footer

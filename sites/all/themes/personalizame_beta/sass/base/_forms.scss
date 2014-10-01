@@ -1,0 +1,13 @@
+.button,
+.button.active,
+.ajax-register-links li a {
+	@include border-radius(4px, 4px);
+	background: #e84c3d;
+	color: white;
+}
+.l-header a.button {
+	color: white;
+}
+input {
+	width: 100%;
+}

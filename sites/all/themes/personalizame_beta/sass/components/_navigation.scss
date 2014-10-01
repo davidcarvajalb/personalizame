@@ -1,0 +1,28 @@
+nav {
+	ul {
+		margin: 0;
+	}
+	li {
+		@include inline-block(middle);
+		border-left: 1px solid #000;
+	}
+	a {
+		padding: 9px;
+		text-align: center;		
+		text-decoration: none;
+	}
+	a:hover, 
+	a.active {
+		text-decoration: none;
+		color: #f3f3f3;
+		background: #000;
+	}	
+}
+.l-region--header {
+	text-align: right;
+}
+.ajax-register-links li a {
+	padding: 9px;
+	text-align: center;		
+	text-decoration: none;
+}

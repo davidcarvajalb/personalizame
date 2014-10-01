@@ -1,0 +1,177 @@
+/* Scott's Dope Mixins v0.3*/
+/* A less configurable but more areodynamic transition mixin */
+/* Removes margin and padding and list style from lists */
+/* Lightens background color on hover */
+/* Darkens background color on hover */
+/* A re-useable font mixin for whatever fonts you are using, allows for an optional color argument */
+/* Cross browser opacity */
+/* REMS with a PX Fallback */
+/* REQUIRES COMPASS */
+/* Faster gradients, if a stop is not specified a -20 of the start
+is assigned for you this may be adjustable in the near future */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/base\/_forms\.scss}line{font-family:\000031}}
+.button,
+.button.active,
+.ajax-register-links li a {
+  -moz-border-radius: 4px / 4px;
+  -webkit-border-radius: 4px 4px;
+  border-radius: 4px / 4px;
+  background: #e84c3d;
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/base\/_forms\.scss}line{font-family:\000038}}
+.l-header a.button {
+  color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/base\/_forms\.scss}line{font-family:\0000311}}
+input {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/base\/_media\.scss}line{font-family:\000031}}
+img, media {
+  max-width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_footer\.scss}line{font-family:\000031}}
+.l-footer {
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_header\.scss}line{font-family:\000031}}
+.ajax-register-links {
+  margin: 0;
+  padding: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_header\.scss}line{font-family:\000033}}
+  .ajax-register-links li {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_header\.scss}line{font-family:\000036}}
+  .ajax-register-links li:first-child {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    _height: 15px;
+    vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_header\.scss}line{font-family:\0000310}}
+.l-page {
+  background: url("../images/layout/bg-header.png") top left repeat-x; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_header\.scss}line{font-family:\0000313}}
+.l-header {
+  height: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_header\.scss}line{font-family:\0000315}}
+  .l-header a {
+    color: #828282; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_header\.scss}line{font-family:\0000318}}
+  .l-header .block {
+    display: -moz-inline-stack;
+    display: inline-block;
+    zoom: 1;
+    *display: inline;
+    _height: 15px;
+    vertical-align: top; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_header\.scss}line{font-family:\0000322}}
+.l-region--header {
+  margin-top: 20px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\000031}}
+ul.breadcrumb {
+  display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\000035}}
+.idiomas-block h2,
+.idiomas-block .view-content {
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\000039}}
+.idiomas-block .views-row {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  _height: 15px;
+  vertical-align: top;
+  width: 33%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\0000314}}
+.flexslider {
+  border-radius: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\0000317}}
+.conversion-home {
+  position: absolute;
+  right: 3%;
+  top: 10%;
+  z-index: 2;
+  background: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\0000324}}
+  .conversion-home > * {
+    padding: 2%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\0000327}}
+  .conversion-home h2 {
+    padding-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\0000331}}
+.l-content {
+  position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_home_content\.scss}line{font-family:\0000334}}
+  .l-content #galeria-home {
+    position: relative;
+    z-index: 1;
+    background: red; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_idiomas\.scss}line{font-family:\000031}}
+.node-type-idioma .field--name-field-image img {
+  width: 100%;
+  height: 332px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_idiomas\.scss}line{font-family:\000036}}
+.field--name-field-proveedor > .field__items > .field__item {
+  border-bottom: solid 1px grey;
+  margin-bottom: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_idiomas\.scss}line{font-family:\0000310}}
+.field--name-field-proveedor .field {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  _height: 15px;
+  vertical-align: top;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_idiomas\.scss}line{font-family:\0000314}}
+.field--name-field-proveedor .field--name-field-perfil-nombre {
+  margin-bottom: 3%;
+  font-weight: bold; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_navigation\.scss}line{font-family:\000032}}
+nav ul {
+  margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_navigation\.scss}line{font-family:\000035}}
+nav li {
+  display: -moz-inline-stack;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  _height: 15px;
+  vertical-align: middle;
+  border-left: 1px solid #000; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_navigation\.scss}line{font-family:\000039}}
+nav a {
+  padding: 9px;
+  text-align: center;
+  text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_navigation\.scss}line{font-family:\0000314}}
+nav a:hover,
+nav a.active {
+  text-decoration: none;
+  color: #f3f3f3;
+  background: #000; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_navigation\.scss}line{font-family:\0000321}}
+.l-region--header {
+  text-align: right; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/var\/www\/html\/personalizame\/sites\/all\/themes\/personalizame_beta\/sass\/components\/_navigation\.scss}line{font-family:\0000324}}
+.ajax-register-links li a {
+  padding: 9px;
+  text-align: center;
+  text-decoration: none; }

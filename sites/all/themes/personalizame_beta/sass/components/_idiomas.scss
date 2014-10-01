@@ -1,0 +1,18 @@
+.node-type-idioma .field--name-field-image img{
+	width: 100%;
+	height: 332px;
+}
+.field--name-field-proveedor{
+	> .field__items > .field__item {
+		border-bottom: solid 1px grey;
+		margin-bottom: 5%;
+	}
+	.field {
+		@include inline-block(top);
+		width: 100%;
+	}
+	.field--name-field-perfil-nombre {
+		margin-bottom: 3%;
+		font-weight: bold;
+	}
+}
