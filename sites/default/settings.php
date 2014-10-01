@@ -217,7 +217,7 @@ $databases = array (
     array (
       'database' => 'personalizame',
       'username' => 'root',
-      'password' => '',
+      'password' => 'Brave123*.',
       'host' => 'localhost',
       'port' => '',
       'driver' => 'mysql',
